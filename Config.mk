@@ -49,6 +49,7 @@ include $(CLEAR_VARS)
 	$(PV_TOP)/engines/author/include \
 	$(PV_TOP)/android/drm/oma1/src \
 	$(PV_TOP)/build_config/opencore_dynamic \
+	$(PV_TOP)/codecs_v2/omx/omx_proxy/src \
 	$(TARGET_OUT_HEADERS)/$(PV_COPY_HEADERS_TO) 
 
   # Stash these values for the next includer of this file.

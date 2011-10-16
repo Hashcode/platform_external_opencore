@@ -63,6 +63,7 @@ class PvmfMediaInputDataBufferAlloc
 {
     public:
         PvmfMediaInputDataBufferAlloc(OsclMemPoolFixedChunkAllocator* opt_gen_alloc = 0);
+	virtual ~PvmfMediaInputDataBufferAlloc() {};
         virtual OsclSharedPtr<PVMFMediaDataImpl> allocate(PvmiMediaTransfer* aMediaInput, uint8* aData,
                 uint32 aDataLength, PVMFCommandId aCmdId, OsclAny* aContext = NULL);
 

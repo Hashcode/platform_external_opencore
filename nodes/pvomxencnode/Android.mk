@@ -29,6 +29,7 @@ LOCAL_COPY_HEADERS_TO := $(PV_COPY_HEADERS_TO)
 LOCAL_COPY_HEADERS := \
 	include/pvmf_omx_enc_defs.h \
  	include/pvmf_omx_enc_factory.h \
- 	include/pvmf_omx_enc_port.h
+ 	include/pvmf_omx_enc_port.h \
+	../../codecs_v2/omx/omx_proxy/src/omx_proxy_interface.h
 
 include $(BUILD_STATIC_LIBRARY)

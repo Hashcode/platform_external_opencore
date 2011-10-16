@@ -30,6 +30,8 @@ LOCAL_COPY_HEADERS := \
  	include/pvmf_omx_basedec_port.h \
  	include/pvmf_omx_basedec_node.h \
  	include/pvmf_omx_basedec_callbacks.h \
- 	include/pvmf_omx_basedec_node_extension_interface.h
+ 	include/pvmf_omx_basedec_node_extension_interface.h \
+	../../codecs_v2/omx/omx_proxy/src/pv_omx_interface_proxy.h \
+	../../codecs_v2/omx/omx_proxy/src/pv_omx_proxied_interface.h
 
 include $(BUILD_STATIC_LIBRARY)

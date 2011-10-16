@@ -274,6 +274,7 @@ class PVProxiedInterface : public PVInterface
 class PVProxiedInterfaceServer
 {
     public:
+	virtual ~PVProxiedInterfaceServer() {};
         /**
         ** PVMainProxy calls this under the PV thread to process a
         ** command off the queue.
@@ -303,6 +304,7 @@ class PVProxiedInterfaceClient
 {
     public:
         PVProxiedInterfaceClient() {}
+	virtual ~PVProxiedInterfaceClient() {};
 
         /**
         ** PVMainProxy calls this to process a notification off the
