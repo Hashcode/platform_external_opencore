@@ -10,6 +10,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
     libpvgeneraltools
 
 LOCAL_MODULE := libopencore_2way
+LOCAL_MODULE_TAGS := optional
 
 LOCAL_PRELINK_MODULE := false
 

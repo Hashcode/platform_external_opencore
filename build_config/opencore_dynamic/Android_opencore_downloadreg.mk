@@ -5,6 +5,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
  	libpvdownloadreginterface
 
 LOCAL_MODULE := libopencore_downloadreg
+LOCAL_MODULE_TAGS := optional
 
 -include $(PV_TOP)/Android_platform_extras.mk
 

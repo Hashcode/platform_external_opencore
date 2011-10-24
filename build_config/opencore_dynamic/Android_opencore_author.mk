@@ -7,6 +7,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
  	libpvauthorengine
 
 LOCAL_WHOLE_STATIC_LIBRARIES +=  libandroidpvauthor
+LOCAL_MODULE_TAGS := optional
 
 # to solve circular dependency among the static libraries.
 LOCAL_STATIC_LIBRARIES := $(LOCAL_STATIC_LIBRARIES) $(LOCAL_WHOLE_STATIC_LIBRARIES)

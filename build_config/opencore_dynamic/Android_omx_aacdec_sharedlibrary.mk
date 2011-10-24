@@ -6,6 +6,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
  	libpv_aac_dec
 
 LOCAL_MODULE := libomx_aacdec_sharedlibrary
+LOCAL_MODULE_TAGS := optional
 
 -include $(PV_TOP)/Android_platform_extras.mk
 

@@ -6,6 +6,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
  	libpvmp4ffparsernode
 
 LOCAL_MODULE := libopencore_mp4local
+LOCAL_MODULE_TAGS := optional
 
 -include $(PV_TOP)/Android_platform_extras.mk
 

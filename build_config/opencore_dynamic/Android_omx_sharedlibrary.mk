@@ -9,6 +9,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES := \
  	libpv_omx_interface
 
 LOCAL_MODULE := libomx_sharedlibrary
+LOCAL_MODULE_TAGS := optional
 
 -include $(PV_TOP)/Android_platform_extras.mk
 
